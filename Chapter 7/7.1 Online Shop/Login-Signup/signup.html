@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+<body>
+    <form action="http://www.example.com/login.php">
+        <p> First Name:
+        <input type="text" name="firstname" size="15" maxlength="30"/>
+        <br />
+        <br />    Last Name: 
+        <input type="text" name="lastname" size="15" maxlength="30"/>
+        </p>
+        <p>
+            Gender:
+            <input type="radio" name="Gender" value="m" checked/> Male
+            <input type="radio" name="Gender" value="f"/> Female
+        </p>
+        
+        <p>
+            Nationality:
+            <select name="countries" multiple>
+                <option value="pakistan">Pakistan</option>
+                <option value="uae">UAE</option>
+                <option value="usa">USA</option>
+                <option value="china">China</option>
+            </select>
+        </p>
+        
+        <p>
+        Password:
+        <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+
+        <p>
+            Re-enter Password:
+            <input type="password" name="password" size="15" maxlength="30"/> 
+        </p>
+        
+        <p>
+            Interests:
+            <input type="checkbox" name="interests" value="men"/> Men's Clothing
+            <input type="checkbox" name="interests" value="women"/> Women's Clothing
+            <input type="checkbox" name="interests" value="acc"/> Accessories
+            <input type="checkbox" name="interests" value="elec"/> Electronics
+        </p>
+        <p>
+            Comments:
+        </p>
+            <textarea name="comments" rows="4" cols="30" >Enter your comments...</textarea>
+        
+    </form>
+</body>
+</html>
