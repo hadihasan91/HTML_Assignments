@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Child Selector</title>
+    <style>
+         div > p {
+             color: darksalmon;
+         }
+         ol > li > p {
+             color: royalblue;
+         }
+    </style>
+</head>
+<body>
+    <h1>Child Selector</h1>
+
+    <p>
+        PIAIC Offers the following courses
+    </p>
+    
+    <div>
+        <p>1) Artificial Intelligence</p>
+    </div>
+    <div>
+        <p>2) Blockchain</p>
+    </div>
+    <div>
+        <p>3) Cloud Native Computing</p>
+    </div>
+    <div>
+        <p>4) Internet of things</p>
+    </div>
+
+    <p>
+        Below is the list of students
+    </p>
+    <table border="3" width=800>
+        <tr>
+            <th>S. No.</th>
+            <th>Name</th>
+            <th>Roll No.</th>
+            <th>Courses</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Ali</td>
+            <td>PIAIC001</td>
+            <td>
+                <ol>
+                    <li>
+                        AI
+                    </li>
+                    <li>
+                        Blockchain
+                    </li>
+                    <li>
+                        CNC
+                    </li>
+                    <li>
+                        IoT
+                    </li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Rizwan</td>
+            <td>PIAIC002</td>
+            <td>
+                <ol>
+                    <li>
+                        CNC
+                    </li>
+                    <li>
+                        IoT
+                    </li>
+                    
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>Shakoor</td>
+            <td>PIAIC003</td>
+            <td>
+                <ol>
+                    <li>
+                        <p>Blockchain</p>
+                        
+                    </li>
+                    <li>
+                        <p>AI</p>
+                    </li>
+                    
+                </ol>
+            </td>     
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>Imran</td>
+            <td>PIAIC004</td>
+            <td>
+                <ol>
+                    AI
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td>5</td>
+            <td>Irfan</td>
+            <td>PIAIC005</td>
+            <td>
+                <ol>
+                    <li>BCC</li>
+                    <li>CNC</li>
+                </ol>
+            </td>
+        </tr>
+
+
+    </table>
+</body>
+</html>
