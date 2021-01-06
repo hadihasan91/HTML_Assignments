@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>RGBA</title>
+    <style>
+        .mainDiv {
+            display: inline-block;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            color: red;
+        }
+        .div1 {
+            background-color: rgb(0, 35, 102);
+            padding: 50px;
+
+        }
+        .div2 {
+            background-color: rgb(0, 35, 102);
+            opacity: 0.5;
+            padding: 50px;
+        }
+        .div3 {
+            background-color: rgba(0, 35, 102, 0.5);
+            padding: 50px;
+        }
+        .div4 {
+            background-color: rgba(0, 35, 102, 0.1);
+            padding: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="div1">
+            100% Opacity
+        </div>
+    </div>
+
+    <div class="mainDiv">
+        <div class="div2">
+            50% Opacity
+        </div>
+    </div>
+
+    <div class="mainDiv">
+        <div class="div3">
+            30% Opacity
+        </div>
+    </div>
+
+    <div class="mainDiv">
+        <div class="div4">
+            10% Opacity
+        </div>
+    </div>
+</body>
+</html>
